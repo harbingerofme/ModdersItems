@@ -29,7 +29,6 @@ namespace ModdersItems
 
         public static ModdersItemsPlugin instance;
         public static PluginInfo pluginInfo;
-
         internal static bool cancel;
 
         private void Awake()
@@ -39,6 +38,7 @@ namespace ModdersItems
 
             instance = this;
             pluginInfo = Info;
+            MILog.logger = this.Logger;
 
             Modules.Config.Init();
             Modules.Assets.Init();

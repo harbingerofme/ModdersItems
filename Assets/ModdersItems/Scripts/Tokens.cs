@@ -22,7 +22,7 @@ namespace ModdersItems.Tokens
 
         public IEnumerable<TokenBase> InitTokens()
         {
-            Debug.Log("ModdersItems: Initializing Tokens...");
+            MILog.Log($"{ModdersItemsPlugin.MODNAME}: Initializing Tokens...");
             GetContentClasses<TokenBase>().ToList().ForEach(token => AddToken(token));
             return null;
         }
@@ -41,7 +41,6 @@ namespace ModdersItems.Tokens
         public override void Initialize()
         {
             base.Initialize();
-            Debug.Log("ModdersItems: Added Tokens for: " + GetType().Name);
             AddTokens();
         }
 

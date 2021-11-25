@@ -39,7 +39,7 @@ namespace ModdersItems.Modules
 
                 if (!mainAssetBundle)
                 {
-                    Debug.LogError(ModdersItemsPlugin.MODNAME + ": AssetBundle not found. File missing or assetBundleName is incorrect.");
+                    MILog.LogError($"{ModdersItemsPlugin.MODNAME}: AssetBundle not found. File missing or assetBundleName is incorrect.");
                     ModdersItemsPlugin.cancel = true;
                     return;
                 }
@@ -85,7 +85,7 @@ namespace ModdersItems.Modules
             {
                 foreach (Type t in mainContentPack.entityStateTypes)
                 {
-                    Debug.Log(ModdersItemsPlugin.MODNAME + ": Added EntityStateType: " + t);
+                    MILog.LogDebug($"{ModdersItemsPlugin.MODNAME}: Added EntityStateType: " + t);
                 }
             }
         }
@@ -98,7 +98,7 @@ namespace ModdersItems.Modules
             {
                 foreach (EntityStateConfiguration t in mainContentPack.entityStateConfigurations)
                 {
-                    Debug.LogWarning(ModdersItemsPlugin.MODNAME + ": Added EntityStateConfiguration: " + t);
+                    MILog.LogDebug($"{ModdersItemsPlugin.MODNAME}: Added EntityStateConfiguration: " + t);
                 }
             }
         }

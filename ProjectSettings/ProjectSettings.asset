@@ -532,15 +532,15 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   scriptingDefineSymbols:
-    1: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
-    7: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
-    13: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
-    19: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
-    21: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
-    25: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
-    26: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
-    27: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
-    28: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils
+    1: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
+    7: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
+    13: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
+    19: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
+    21: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
+    25: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
+    26: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
+    27: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
+    28: thunderkit;riskofthunder-fixplugintypesserialization;riskofthunder-microsoft_csharp;teammoonstorm-moonstormsharedutils;teammoonstorm-moonstormsharededitorutils;riskofrain2
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}

@@ -14,6 +14,7 @@ namespace ModdersItems.Modules
         {
             Instance = this;
             base.Init();
+            MILog.Log($"{ModdersItemsPlugin.MODNAME}: Initializing Pickups...");
 
             InitializeEquipments();
             InitializeEliteEquipments();

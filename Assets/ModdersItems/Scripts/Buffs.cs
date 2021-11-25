@@ -14,6 +14,8 @@ namespace ModdersItems.Modules
         {
             Instance = this;
             base.Init();
+            MILog.Log($"{ModdersItemsPlugin.MODNAME}: Initializing Buffs...");
+
             InitializeBuffs();
         }
         public override IEnumerable<BuffBase> InitializeBuffs()

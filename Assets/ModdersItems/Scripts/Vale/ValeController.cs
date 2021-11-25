@@ -11,10 +11,15 @@ namespace ModdersItems.Items
     {
         public override ItemDef ItemDef { get; set; } = Modules.Assets.mainAssetBundle.LoadAsset<ItemDef>("ValeController");
 
+        [ConfigurableField(ConfigName = "Speed Multiplier Base", ConfigDesc = "What is the initial pickup's speed % increase?", ConfigSection = "ValeController")]
         public static float speedMulti = 0.4f;
+        [ConfigurableField(ConfigName = "Speed Multiplier Stack", ConfigDesc = "How much should each additional stack add to the speed % increase?", ConfigSection = "ValeController")]
         public static float speedStackMulti = 0.2f;
+        [ConfigurableField(ConfigName = "Buff Duration Base", ConfigDesc = "How long should the initial pickup's buff last?", ConfigSection = "ValeController")]
         public static float buffDuration = 1.5f;
+        [ConfigurableField(ConfigName = "Buff Duration Stack", ConfigDesc = "How much should each additional stack add to the buff duration?", ConfigSection = "ValeController")]
         public static float buffDurationStack = 0.25f;
+        [ConfigurableField(ConfigName = "Buff Cooldown", ConfigDesc = "How long should the cooldown for the speed buff be?", ConfigSection = "ValeController")]
         public static float buffCooldown = 5f;
 
         public override void AddBehavior(ref CharacterBody body, int stack)

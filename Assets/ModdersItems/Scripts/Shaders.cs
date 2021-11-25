@@ -10,6 +10,7 @@ namespace ModdersItems.Modules
 
         public static void Init()
         {
+            MILog.Log($"{ModdersItemsPlugin.MODNAME}: Initializing Shaders...");
             ConvertBundleMaterials(Assets.mainAssetBundle);
             CreateMaterialStorage(Assets.mainAssetBundle);
         }

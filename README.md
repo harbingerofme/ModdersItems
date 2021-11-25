@@ -1,5 +1,5 @@
 # ModdersItems
- A collection of custom Risk of Rain 2 items based off of community modders, much like how vanilla has developer items.
+ A collection of custom Risk of Rain 2 items based off of community modders, much like how vanilla has developer items (Ghor's Tome, Paul's Goat Hoof).
 
 # Contributing
 This mod is a [ThunderKit Project](https://github.com/PassivePicasso/ThunderKit), and also makes use of [Moonstorm Shared Utils](https://thunderstore.io/package/TeamMoonstorm/MoonstormSharedUtils/) to handle the project.

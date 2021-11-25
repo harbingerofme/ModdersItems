@@ -134,9 +134,9 @@ namespace ModdersItems.Modules
 
         public IEnumerator LoadStaticContentAsync(LoadStaticContentAsyncArgs args)
         {
+            new Tokens.TokensModule().Init();
             new Pickups().Init();
             new Buffs().Init();
-            new Tokens.TokensModule().Init();
 
             args.ReportProgress(1f);
             yield break;
